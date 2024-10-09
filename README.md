@@ -1,4 +1,7 @@
 # golang-server-session
+
+참고링크: https://github.com/Tanmay-Teaches/golang
+
 ## 1주차
 
 ### Go 언어의 특징과 설계 목표 이해하기
