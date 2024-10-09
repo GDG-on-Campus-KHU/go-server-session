@@ -1,8 +1,8 @@
-package exercise
+package lab
 
 import "fmt"
 
-func Exec1() {
+func Lab1() {
 	var num1, num2 float64
 	var operator string
 

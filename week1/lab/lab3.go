@@ -1,8 +1,8 @@
-package exercise
+package lab
 
 import "fmt"
 
-func sumArray(arr []int) int {
+func SumArray(arr []int) int {
 	sum := 0
 	for _, v := range arr {
 		sum += v
@@ -10,7 +10,7 @@ func sumArray(arr []int) int {
 	return sum
 }
 
-func findMaxMin(arr []int) (int, int) {
+func FindMaxMin(arr []int) (int, int) {
 	max := arr[0]
 	min := arr[0]
 	for _, v := range arr {
@@ -24,15 +24,15 @@ func findMaxMin(arr []int) (int, int) {
 	return max, min
 }
 
-func Exec3() {
+func Lab3() {
 	defer fmt.Println("프로그램을 종료합니다.")
 
 	arr := []int{3, 5, 1, 2, 0}
 
-	totalSum := sumArray(arr)
+	totalSum := SumArray(arr)
 	fmt.Println("배열의 총 합:", totalSum)
 
-	max, min := findMaxMin(arr)
+	max, min := FindMaxMin(arr)
 	fmt.Println("배열의 최대값:", max)
 	fmt.Println("배열의 최소값:", min)
 
