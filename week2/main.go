@@ -1,6 +1,7 @@
 package main
 
 import (
+	"week2/lab"
 	"week2/study"
 )
 
@@ -18,4 +19,6 @@ func main() {
 
 	// study.Code31()
 	// study.Code32()
+
+	lab.Lab3()
 }
