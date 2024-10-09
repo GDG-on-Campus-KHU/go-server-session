@@ -1,4 +1,4 @@
-// < 2.28 오류 >
+// < 2.2.9 오류 >
 package study
 
 import (
