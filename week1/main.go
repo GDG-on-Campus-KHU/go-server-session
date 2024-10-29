@@ -2,7 +2,7 @@ package main
 
 // study, exercise 패키지를 import
 import (
-	"week1/exercise"
+	"week1/lab"
 	"week1/study"
 )
 
@@ -18,7 +18,7 @@ func main() {
 	// study.PrintFunction()
 	//study.PrintFmt()
 
-	exercise.Exec1()
-	//exercise.Exec2()
-	//exercise.Exec3()
+	lab.Lab1()
+	// lab.Lab2()
+	// lab.Lab3()
 }

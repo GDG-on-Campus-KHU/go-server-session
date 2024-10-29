@@ -1,8 +1,8 @@
-package exercise
+package lab
 
 import "fmt"
 
-func Exec2() {
+func Lab2() {
 	var number int
 
 	fmt.Print("숫자를 입력하세요: ")
